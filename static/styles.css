@@ -1,0 +1,59 @@
+.text-overflow {
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: clip;
+  width: 100%;
+}
+
+.pelicula-container {
+  overflow: hidden;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px;
+  padding: 10px;
+  width: 250px;
+}
+
+.peliculas-container {
+  overflow: hidden;  
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  align-items: flex-start; 
+  margin: 0px;
+  padding: 10px;
+  max-width: 1000px; 
+}
+
+.peliculas-container:hover {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.mainTitle {
+  text-align: center;
+  font-size: 2em;
+  margin: 20px;
+  color:rgb(57, 57, 57);
+}
+
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+.img-m {
+  width: 200px; 
+  height: auto;
+}
+img.half-rounded {
+  border-radius: 10% 10% 10% 10%;
+}
+h3{
+  color: black;
+  font-size: 15px;
+}
